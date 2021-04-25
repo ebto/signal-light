@@ -1,0 +1,23 @@
+{
+    "name": "signal light",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "signal_block": "github:hirowo/signal_block#edf448f53994633584c394ad40b3b9db7b5cf88a",
+        "stem": "github:tfabworks/pxt-stem#v2.2.1"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
